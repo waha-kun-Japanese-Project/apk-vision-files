@@ -41,7 +41,10 @@ async def health_check():
         # Check RabbitMQ connection
         rabbitmq_status = "unknown"
         try:
-            broker = RabbitMQBroker()
+            # max_retries=1: health checks must fail fast, not wait through
+            # the worker's full retry-with-backoff (see queue_broker.py) -
+            # a slow /health response can itself trip k8s readiness probes.
+            broker = RabbitMQBroker(max_retries=1)
             broker.close()
             rabbitmq_status = "connected"
         except Exception as e:
@@ -278,7 +281,10 @@ async def predict_async(
         logger.info(f"[{request_id}] Saved file: {file_path}")
         
         # 4. Publish to queue
-        broker = RabbitMQBroker()
+        # max_retries=1: this is an inline HTTP request - a client
+        # shouldn't wait through the full retry-with-backoff, better to
+        # fail fast and let them retry the upload
+        broker = RabbitMQBroker(max_retries=1)
         broker.publish_request(request_id, file_path)
         broker.close()
         

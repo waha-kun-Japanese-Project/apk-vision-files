@@ -5,6 +5,7 @@ RabbitMQ connection and queue management for Vision Service.
 import pika
 import json
 import logging
+import time
 from typing import Optional, Dict, Any
 from datetime import datetime
 
@@ -15,43 +16,60 @@ settings = get_settings()
 
 class RabbitMQBroker:
     """RabbitMQ connection manager for Vision Service."""
-    
-    def __init__(self):
+
+    # CHANGED: added retry-with-backoff. Previously a single failed
+    # connection attempt raised immediately, which - combined with the
+    # Dockerfile running the worker in the same process group as the API -
+    # could take the whole container down if RabbitMQ wasn't reachable yet
+    # at startup. Retrying here means the worker recovers on its own once
+    # RabbitMQ comes up, instead of needing the whole pod to crash-loop.
+    def __init__(self, max_retries: int = 5, retry_delay_seconds: float = 3.0):
         self.connection = None
         self.channel = None
-        self._connect()
-    
-    def _connect(self):
-        """Establish connection to RabbitMQ."""
-        try:
-            credentials = pika.PlainCredentials(
-                settings.RABBITMQ_USER,
-                settings.RABBITMQ_PASSWORD
-            )
-            parameters = pika.ConnectionParameters(
-                host=settings.RABBITMQ_HOST,
-                port=settings.RABBITMQ_PORT,
-                virtual_host='/',
-                credentials=credentials,
-                heartbeat=600
-            )
-            self.connection = pika.BlockingConnection(parameters)
-            self.channel = self.connection.channel()
-            
-            # Declare queues (durable = survive RabbitMQ restart)
-            self.channel.queue_declare(
-                queue='vision.prediction.requests',
-                durable=True
-            )
-            self.channel.queue_declare(
-                queue='vision.prediction.results',
-                durable=True
-            )
-            
-            logger.info(f"Connected to RabbitMQ at {settings.RABBITMQ_HOST}:{settings.RABBITMQ_PORT}")
-        except Exception as e:
-            logger.error(f"Failed to connect to RabbitMQ: {e}")
-            raise
+        self._connect(max_retries=max_retries, retry_delay_seconds=retry_delay_seconds)
+
+    def _connect(self, max_retries: int = 5, retry_delay_seconds: float = 3.0):
+        """Establish connection to RabbitMQ, retrying with backoff."""
+        credentials = pika.PlainCredentials(
+            settings.RABBITMQ_USER,
+            settings.RABBITMQ_PASSWORD
+        )
+        parameters = pika.ConnectionParameters(
+            host=settings.RABBITMQ_HOST,
+            port=settings.RABBITMQ_PORT,
+            virtual_host='/',
+            credentials=credentials,
+            heartbeat=600
+        )
+
+        last_error: Optional[Exception] = None
+        for attempt in range(1, max_retries + 1):
+            try:
+                self.connection = pika.BlockingConnection(parameters)
+                self.channel = self.connection.channel()
+
+                # Declare queues (durable = survive RabbitMQ restart)
+                self.channel.queue_declare(
+                    queue='vision.prediction.requests',
+                    durable=True
+                )
+                self.channel.queue_declare(
+                    queue='vision.prediction.results',
+                    durable=True
+                )
+
+                logger.info(f"Connected to RabbitMQ at {settings.RABBITMQ_HOST}:{settings.RABBITMQ_PORT}")
+                return
+            except Exception as e:
+                last_error = e
+                logger.warning(
+                    f"RabbitMQ connection attempt {attempt}/{max_retries} failed: {e}"
+                )
+                if attempt < max_retries:
+                    time.sleep(retry_delay_seconds)
+
+        logger.error(f"Failed to connect to RabbitMQ after {max_retries} attempts: {last_error}")
+        raise last_error
     
     def publish_request(self, request_id: str, image_path: str):
         """

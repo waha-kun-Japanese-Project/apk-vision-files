@@ -1,0 +1,87 @@
+name: Build, Push and Deploy Vision Service
+
+# Lives in apk-vision-files at .github/workflows/build.yml
+#
+# One image, used by TWO Deployments in the GitOps repo
+# (vision-ai-api-definition.yml and vision-ai-worker-definition.yml) with
+# different `command:` overrides - so this workflow only needs to bump one
+# image tag, but in both files.
+
+on:
+  push:
+    branches: [ "main" ]
+    paths-ignore:
+      - '**.md'
+
+env:
+  DOCKERHUB_NAMESPACE: mohamedelsawyy  
+  DOCKERHUB_IMAGE: visionservice
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    outputs:
+      image_tag: ${{ steps.vars.outputs.image_tag }}
+    steps:
+      - name: Checkout app repo
+        uses: actions/checkout@v4
+
+      - name: Set image tag (short commit SHA)
+        id: vars
+        run: echo "image_tag=$(echo ${GITHUB_SHA} | cut -c1-7)" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          # context is repo root (not docker/) so `COPY requirements.txt .`
+          # and `COPY . .` inside docker/Dockerfile see the whole project -
+          # matches how docker-compose.yml already builds this (context: ..)
+          context: .
+          file: docker/Dockerfile
+          push: true
+          tags: |
+            ${{ env.DOCKERHUB_NAMESPACE }}/${{ env.DOCKERHUB_IMAGE }}:${{ steps.vars.outputs.image_tag }}
+            ${{ env.DOCKERHUB_NAMESPACE }}/${{ env.DOCKERHUB_IMAGE }}:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+  update-gitops:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GitOps repo
+        uses: actions/checkout@v4
+        with:
+          repository: waha-kun-Japanese-Project/k8s-definitions-files
+          token: ${{ secrets.GITOPS_PAT }}
+          path: gitops
+
+      - name: Bump image tag in both vision-ai Deployments
+        run: |
+          cd gitops/backend
+          TAG="${{ needs.build-and-push.outputs.image_tag }}"
+          IMG="${{ env.DOCKERHUB_NAMESPACE }}/${{ env.DOCKERHUB_IMAGE }}"
+          for f in vision-ai-api-definition.yml vision-ai-worker-definition.yml; do
+            [ -f "$f" ] || continue
+            sed -i "s|image: ${IMG}:.*|image: ${IMG}:${TAG}|" "$f"
+          done
+          grep -H "image:" vision-ai-*-definition.yml
+
+      - name: Commit and push change
+        run: |
+          cd gitops
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add backend/vision-ai-*-definition.yml
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: deploy vision-service @ ${{ needs.build-and-push.outputs.image_tag }}"
+          git push
