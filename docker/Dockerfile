@@ -20,12 +20,12 @@ COPY . .
 
 RUN useradd --create-home --uid 10001 appuser \
     && mkdir -p uploads logs models \
-    && chown -R appuser:appuser /app
+    && chown -R 10001:10001 /app
 
 ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 
-USER appuser
+USER 10001
 
 EXPOSE 8001
 
