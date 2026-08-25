@@ -29,4 +29,4 @@ USER 10001
 
 EXPOSE 8001
 
-CMD ["sh", "-c", "uvicorn VisionService.API.app:app --host 0.0.0.0 --port 8001 & python -m VisionService.Worker.worker"]
+CMD ["uvicorn", "VisionService.API.app:app", "--host", "0.0.0.0", "--port", "8001", "--root-path", "/vision"]
