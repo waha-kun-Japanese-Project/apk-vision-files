@@ -9,7 +9,7 @@ import logging
 import os
 from typing import Tuple
 
-from VisionService.Shared.constants import TARGET_SIZE, MIN_IMAGE_SIZE
+from Shared.constants import TARGET_SIZE, MIN_IMAGE_SIZE
 
 logger = logging.getLogger(__name__)
 

@@ -2,7 +2,7 @@
 Severity calculation logic.
 """
 
-from VisionService.Shared.enums import SeverityLevel
+from Shared.enums import SeverityLevel
 
 def calculate_severity(problem: str, confidence: float) -> str:
     """

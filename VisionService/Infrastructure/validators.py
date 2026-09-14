@@ -6,7 +6,7 @@ from fastapi import UploadFile, HTTPException
 from typing import Dict, Any
 import os
 
-from VisionService.Infrastructure.config import Settings
+from Infrastructure.config import Settings
 
 def validate_file(file: UploadFile, settings: Settings) -> Dict[str, Any]:
     """

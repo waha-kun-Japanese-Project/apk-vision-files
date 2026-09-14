@@ -8,11 +8,12 @@ import time
 import os
 from datetime import datetime
 
-from VisionService.Infrastructure.queue_broker import RabbitMQBroker
-from VisionService.Infrastructure.logger import setup_logger
-from VisionService.Core.model import predict_image
-from VisionService.Infrastructure.utils import enhance_image, check_image_quality
-from VisionService.Infrastructure.config import get_settings
+from Infrastructure.queue_broker import RabbitMQBroker
+from Infrastructure.logger import setup_logger
+from Core.model import predict_image
+from Infrastructure.utils import enhance_image, check_image_quality
+from Infrastructure.config import get_settings
+from Core.binary_model import is_irrigation_problem  # ✅ أضف السطر ده
 
 # Setup logger
 logger = setup_logger("VisionService.Worker")
@@ -59,16 +60,41 @@ def process_prediction(ch, method, properties, body):
                 image_to_predict = enhanced_path
                 logger.info(f"[{request_id}] Image enhanced")
         
-        # Run prediction
-        prediction_start = time.time()
-        result = predict_image(image_to_predict)
-        prediction_time = time.time() - prediction_start
+        # ============================================
+        # ✅ BINARY CLASSIFIER CHECK (مثل الـ Sync)
+        # ============================================
         
-        logger.info(f"[{request_id}] Prediction: {result['problem_code']} ({result['confidence']:.2f}%) in {prediction_time:.2f}s")
+        # Check if image is actually an irrigation problem
+        is_problem, binary_confidence = is_irrigation_problem(
+            image_to_predict, 
+            threshold=settings.BINARY_THRESHOLD
+        )
+        
+        logger.info(f"[{request_id}] Binary check: is_problem={is_problem}, confidence={binary_confidence:.2f}")
+        
+        # If NOT a problem → refuse
+        if not is_problem:
+            result = {
+                "problem_code": "Unknown",
+                "problem_arabic": "لا توجد مشكلة",
+                "confidence": binary_confidence * 100,
+                "severity": "غير معروفة",
+                "recommendation": "الصورة لا تظهر مشكلة ري واضحة.",
+                "explanation": "لم يتم الكشف عن مشكلة في الري.",
+                "repair_steps": []
+            }
+            logger.info(f"[{request_id}] Refused: Not an irrigation problem")
+        else:
+            # Run prediction
+            prediction_start = time.time()
+            result = predict_image(image_to_predict)
+            prediction_time = time.time() - prediction_start
+            
+            logger.info(f"[{request_id}] Prediction: {result['problem_code']} ({result['confidence']:.2f}%) in {prediction_time:.2f}s")
         
         # Publish result
         broker = RabbitMQBroker()
-        broker.publish_result(request_id, result, prediction_time)
+        broker.publish_result(request_id, result, prediction_time if 'prediction_time' in locals() else 0.5)
         
         # Clean up enhanced image (if created)
         if image_to_predict != image_path and os.path.exists(image_to_predict):

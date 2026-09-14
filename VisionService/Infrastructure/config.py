@@ -23,10 +23,15 @@ class Settings(BaseSettings):
     # ============================================
     # Model Settings
     # ============================================
-    MODEL_PATH: str = "models/efficientnet_waha_kun.keras"
-    CONFIDENCE_THRESHOLD: float = 50.0
-    
+
     # ============================================
+# Model Settings
+# ============================================
+    MODEL_PATH: str = "models/efficientnet_waha_kun.keras"
+    BINARY_MODEL_PATH: str = "models/binary_classifier.keras"  # ← جديد
+    CONFIDENCE_THRESHOLD: float = 75.0
+    BINARY_THRESHOLD: float = 0.75  # ← جديد
+
     # File Settings
     # ============================================
     UPLOAD_FOLDER: str = "uploads"

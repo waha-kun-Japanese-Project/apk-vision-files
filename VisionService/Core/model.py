@@ -8,11 +8,11 @@ import os
 import logging
 from typing import Dict, Any
 
-from VisionService.Infrastructure.config import get_settings
-from VisionService.Infrastructure.utils import prepare_image
-from VisionService.Core.severity import calculate_severity
-from VisionService.Core.problem_info import PROBLEM_INFO
-from VisionService.Shared.exceptions import ModelLoadError, PredictionError
+from Infrastructure.config import get_settings
+from Infrastructure.utils import prepare_image
+from Core.severity import calculate_severity
+from Core.problem_info import PROBLEM_INFO
+from Shared.exceptions import ModelLoadError, PredictionError
 
 logger = logging.getLogger(__name__)
 settings = get_settings()

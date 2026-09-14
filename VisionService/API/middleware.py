@@ -6,7 +6,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 
-from VisionService.Infrastructure.config import get_settings
+from Infrastructure.config import get_settings
 
 logger = logging.getLogger(__name__)
 

@@ -18,7 +18,7 @@ def setup_logger(name: str = "VisionService") -> logging.Logger:
         Configured logger instance
     """
     # Create logs directory
-    logs_dir = Path("logs")
+    logs_dir = Path("../logs")
     logs_dir.mkdir(exist_ok=True)
     
     # Create logger
