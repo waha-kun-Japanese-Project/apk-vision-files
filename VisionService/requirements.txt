@@ -33,3 +33,6 @@ sentence-transformers==2.2.0   # Creates embeddings
 # Utilities
 # ============================================
 typing_extensions==4.16.0
+
+
+protobuf==6.31.1

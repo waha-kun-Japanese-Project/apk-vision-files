@@ -1,0 +1,143 @@
+2026-08-28 08:52:24,540 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:103 - ============================================================
+2026-08-28 08:52:24,541 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:104 - Starting Vision Service Worker...
+2026-08-28 08:52:24,541 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:105 - RabbitMQ Host: localhost:5672
+2026-08-28 08:52:24,541 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:106 - Waiting for messages...
+2026-08-28 08:52:24,542 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:107 - Press Ctrl+C to stop
+2026-08-28 08:52:24,542 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:108 - ============================================================
+2026-08-28 08:52:24,580 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [f8438ce0] Processing started
+2026-08-28 08:52:24,634 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [f8438ce0] Image enhanced
+2026-08-28 08:52:28,251 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [f8438ce0] Prediction: Pipe_Damage (88.55%) in 3.62s
+2026-08-28 08:52:28,269 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [f8438ce0] Cleaned up enhanced image
+2026-08-28 08:52:28,270 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [f8438ce0] Completed successfully (total: 3.69s)
+2026-08-28 08:52:28,273 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [f69c2399] Processing started
+2026-08-28 08:52:28,344 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [f69c2399] Image enhanced
+2026-08-28 08:52:28,488 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [f69c2399] Prediction: Blockage (47.23%) in 0.14s
+2026-08-28 08:52:28,503 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [f69c2399] Cleaned up enhanced image
+2026-08-28 08:52:28,503 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [f69c2399] Completed successfully (total: 0.23s)
+2026-08-28 08:52:28,508 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [464031a2] Processing started
+2026-08-28 08:52:28,555 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [464031a2] Image enhanced
+2026-08-28 08:52:28,694 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [464031a2] Prediction: Blockage (47.23%) in 0.14s
+2026-08-28 08:52:28,710 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [464031a2] Cleaned up enhanced image
+2026-08-28 08:52:28,711 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [464031a2] Completed successfully (total: 0.20s)
+2026-08-28 08:52:28,714 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [29395a7b] Processing started
+2026-08-28 08:52:28,765 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [29395a7b] Image enhanced
+2026-08-28 08:52:28,926 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [29395a7b] Prediction: Blockage (47.23%) in 0.16s
+2026-08-28 08:52:28,939 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [29395a7b] Cleaned up enhanced image
+2026-08-28 08:52:28,940 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [29395a7b] Completed successfully (total: 0.23s)
+2026-08-28 08:52:28,945 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [b8d80732] Processing started
+2026-08-28 08:52:28,959 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [b8d80732] Image enhanced
+2026-08-28 08:52:29,088 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [b8d80732] Prediction: Pipe_Damage (88.55%) in 0.13s
+2026-08-28 08:52:29,102 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [b8d80732] Cleaned up enhanced image
+2026-08-28 08:52:29,102 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [b8d80732] Completed successfully (total: 0.16s)
+2026-08-28 08:52:29,104 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [08f059cc] Processing started
+2026-08-28 08:52:29,124 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [08f059cc] Image enhanced
+2026-08-28 08:52:29,258 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [08f059cc] Prediction: Pipe_Damage (98.66%) in 0.13s
+2026-08-28 08:52:29,273 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [08f059cc] Cleaned up enhanced image
+2026-08-28 08:52:29,274 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [08f059cc] Completed successfully (total: 0.17s)
+2026-08-28 08:52:29,278 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [fdcac9e8] Processing started
+2026-08-28 08:52:29,294 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [fdcac9e8] Image enhanced
+2026-08-28 08:52:29,437 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [fdcac9e8] Prediction: Pipe_Damage (99.01%) in 0.14s
+2026-08-28 08:52:29,451 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [fdcac9e8] Cleaned up enhanced image
+2026-08-28 08:52:29,451 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [fdcac9e8] Completed successfully (total: 0.17s)
+2026-08-28 08:53:11,412 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [d5468016] Processing started
+2026-08-28 08:53:11,672 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [d5468016] Image enhanced
+2026-08-28 08:53:13,324 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [d5468016] Prediction: Blockage (49.31%) in 1.65s
+2026-08-28 08:53:13,365 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [d5468016] Cleaned up enhanced image
+2026-08-28 08:53:13,366 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [d5468016] Completed successfully (total: 1.97s)
+2026-08-28 09:13:09,680 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:115 - Worker stopped by user
+2026-08-28 09:16:20,892 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:103 - ============================================================
+2026-08-28 09:16:20,893 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:104 - Starting Vision Service Worker...
+2026-08-28 09:16:20,895 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:105 - RabbitMQ Host: localhost:5672
+2026-08-28 09:16:20,895 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:106 - Waiting for messages...
+2026-08-28 09:16:20,895 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:107 - Press Ctrl+C to stop
+2026-08-28 09:16:20,896 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:108 - ============================================================
+2026-08-28 09:16:48,087 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [beb8890d] Processing started
+2026-08-28 09:16:48,531 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [beb8890d] Image enhanced
+2026-08-28 09:17:02,888 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [beb8890d] Prediction: Blockage (47.23%) in 14.35s
+2026-08-28 09:17:02,977 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [beb8890d] Cleaned up enhanced image
+2026-08-28 09:17:02,980 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [beb8890d] Completed successfully (total: 14.90s)
+2026-08-28 09:20:45,001 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [2986fbeb] Processing started
+2026-08-28 09:20:45,301 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [2986fbeb] Image enhanced
+2026-08-28 09:20:47,550 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [2986fbeb] Prediction: Blockage (49.31%) in 2.25s
+2026-08-28 09:20:47,624 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [2986fbeb] Cleaned up enhanced image
+2026-08-28 09:20:47,626 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [2986fbeb] Completed successfully (total: 2.64s)
+2026-08-28 09:24:36,214 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [ca07fab8] Processing started
+2026-08-28 09:24:36,771 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [ca07fab8] Image enhanced
+2026-08-28 09:24:38,920 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [ca07fab8] Prediction: Blockage (47.23%) in 2.15s
+2026-08-28 09:24:38,972 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [ca07fab8] Cleaned up enhanced image
+2026-08-28 09:24:38,974 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [ca07fab8] Completed successfully (total: 2.78s)
+2026-08-28 09:24:59,291 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [85a49e01] Processing started
+2026-08-28 09:24:59,542 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [85a49e01] Image enhanced
+2026-08-28 09:25:00,376 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [85a49e01] Prediction: Pipe_Damage (95.49%) in 0.83s
+2026-08-28 09:25:00,405 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [85a49e01] Cleaned up enhanced image
+2026-08-28 09:25:00,406 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [85a49e01] Completed successfully (total: 1.12s)
+2026-08-28 09:30:46,506 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:103 - ============================================================
+2026-08-28 09:30:46,509 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:104 - Starting Vision Service Worker...
+2026-08-28 09:30:46,510 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:105 - RabbitMQ Host: localhost:5672
+2026-08-28 09:30:46,511 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:106 - Waiting for messages...
+2026-08-28 09:30:46,511 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:107 - Press Ctrl+C to stop
+2026-08-28 09:30:46,512 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:108 - ============================================================
+2026-08-28 09:34:21,224 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [cf029b5d] Processing started
+2026-08-28 09:34:21,839 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [cf029b5d] Image enhanced
+2026-08-28 09:34:33,528 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [cf029b5d] Prediction: Blockage (99.24%) in 11.69s
+2026-08-28 09:34:33,569 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [cf029b5d] Cleaned up enhanced image
+2026-08-28 09:34:33,571 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [cf029b5d] Completed successfully (total: 12.36s)
+2026-08-28 09:35:44,217 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [2b11cf08] Processing started
+2026-08-28 09:35:44,774 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [2b11cf08] Image enhanced
+2026-08-28 09:35:46,878 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [2b11cf08] Prediction: Blockage (47.23%) in 2.10s
+2026-08-28 09:35:46,929 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [2b11cf08] Cleaned up enhanced image
+2026-08-28 09:35:46,933 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [2b11cf08] Completed successfully (total: 2.73s)
+2026-08-28 09:39:22,310 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:115 - Worker stopped by user
+2026-08-28 09:39:49,996 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:103 - ============================================================
+2026-08-28 09:39:49,996 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:104 - Starting Vision Service Worker...
+2026-08-28 09:39:49,997 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:105 - RabbitMQ Host: localhost:5672
+2026-08-28 09:39:49,997 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:106 - Waiting for messages...
+2026-08-28 09:39:49,997 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:107 - Press Ctrl+C to stop
+2026-08-28 09:39:49,997 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:108 - ============================================================
+2026-08-28 09:40:12,763 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [1bd8f234] Processing started
+2026-08-28 09:40:13,066 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [1bd8f234] Image enhanced
+2026-08-28 09:40:25,758 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [1bd8f234] Prediction: Blockage (47.23%) in 12.69s
+2026-08-28 09:40:25,795 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [1bd8f234] Cleaned up enhanced image
+2026-08-28 09:40:25,797 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [1bd8f234] Completed successfully (total: 13.04s)
+2026-08-28 09:51:35,262 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:115 - Worker stopped by user
+2026-08-28 12:04:25,311 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:103 - ============================================================
+2026-08-28 12:04:25,312 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:104 - Starting Vision Service Worker...
+2026-08-28 12:04:25,312 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:105 - RabbitMQ Host: localhost:5672
+2026-08-28 12:04:25,312 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:106 - Waiting for messages...
+2026-08-28 12:04:25,312 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:107 - Press Ctrl+C to stop
+2026-08-28 12:04:25,313 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:108 - ============================================================
+2026-08-28 12:06:18,531 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [8e2d2c61] Processing started
+2026-08-28 12:06:19,061 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [8e2d2c61] Image enhanced
+2026-08-28 12:06:28,627 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [8e2d2c61] Prediction: Blockage (47.23%) in 9.56s
+2026-08-28 12:06:28,695 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [8e2d2c61] Cleaned up enhanced image
+2026-08-28 12:06:28,697 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [8e2d2c61] Completed successfully (total: 10.18s)
+2026-08-28 12:11:26,274 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:40 - [a267b4bc] Processing started
+2026-08-28 12:11:26,745 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:60 - [a267b4bc] Image enhanced
+2026-08-28 12:11:28,868 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:67 - [a267b4bc] Prediction: Blockage (47.23%) in 2.12s
+2026-08-28 12:11:28,925 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:76 - [a267b4bc] Cleaned up enhanced image
+2026-08-28 12:11:28,926 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:82 - [a267b4bc] Completed successfully (total: 2.66s)
+2026-08-28 12:18:25,763 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:115 - Worker stopped by user
+2026-08-28 12:19:58,026 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:129 - ============================================================
+2026-08-28 12:19:58,027 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:130 - Starting Vision Service Worker...
+2026-08-28 12:19:58,027 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:131 - RabbitMQ Host: localhost:5672
+2026-08-28 12:19:58,028 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:132 - Waiting for messages...
+2026-08-28 12:19:58,028 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:133 - Press Ctrl+C to stop
+2026-08-28 12:19:58,029 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:134 - ============================================================
+2026-08-28 12:20:37,443 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:41 - [a03dc2a9] Processing started
+2026-08-28 12:20:38,058 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:61 - [a03dc2a9] Image enhanced
+2026-08-28 12:20:48,696 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:73 - [a03dc2a9] Binary check: is_problem=False, confidence=0.47
+2026-08-28 12:20:48,708 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:86 - [a03dc2a9] Refused: Not an irrigation problem
+2026-08-28 12:20:48,881 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:102 - [a03dc2a9] Cleaned up enhanced image
+2026-08-28 12:20:48,885 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:108 - [a03dc2a9] Completed successfully (total: 11.45s)
+2026-08-28 12:24:15,748 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:41 - [268ff706] Processing started
+2026-08-28 12:24:16,118 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:61 - [268ff706] Image enhanced
+2026-08-28 12:24:17,725 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:73 - [268ff706] Binary check: is_problem=True, confidence=0.96
+2026-08-28 12:24:18,227 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:93 - [268ff706] Prediction: Pipe_Damage (96.28%) in 0.50s
+2026-08-28 12:24:18,269 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:102 - [268ff706] Cleaned up enhanced image
+2026-08-28 12:24:18,272 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:108 - [268ff706] Completed successfully (total: 2.53s)
+2026-08-28 12:24:40,440 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:41 - [3c29d634] Processing started
+2026-08-28 12:24:40,664 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:61 - [3c29d634] Image enhanced
+2026-08-28 12:24:41,411 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:73 - [3c29d634] Binary check: is_problem=False, confidence=0.54
+2026-08-28 12:24:41,412 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:86 - [3c29d634] Refused: Not an irrigation problem
+2026-08-28 12:24:41,445 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:102 - [3c29d634] Cleaned up enhanced image
+2026-08-28 12:24:41,446 - VisionService.Worker - INFO - D:\Graduation_Project\VisionService\VisionService\Worker\worker.py:108 - [3c29d634] Completed successfully (total: 1.01s)

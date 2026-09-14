@@ -1,0 +1,63 @@
+2026-07-17 05:34:46,976 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
+2026-07-17 05:36:19,703 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:48 - [e8d0e80e] Received file: image2pipe.jpg
+2026-07-17 05:36:19,710 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:69 - [e8d0e80e] Saved file: uploads\e8d0e80e_image2pipe.jpg
+2026-07-17 05:36:19,865 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:88 - [e8d0e80e] Image enhanced
+2026-07-17 05:36:28,923 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:98 - [e8d0e80e] Prediction: Pipe_Damage (99.92%)
+2026-07-17 05:36:28,925 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:135 - [e8d0e80e] Cleaned up temporary file
+2026-07-17 05:36:52,012 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:161 - [abc9b45e] Received file (async): image9pipe.jpg
+2026-07-17 05:36:52,015 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:182 - [abc9b45e] Saved file: uploads\abc9b45e_image9pipe.jpg
+2026-07-17 05:40:24,872 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:161 - [8089a22d] Received file (async): image10block.jpg
+2026-07-17 05:40:24,896 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:182 - [8089a22d] Saved file: uploads\8089a22d_image10block.jpg
+2026-07-17 05:41:11,843 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:48 - [72c3615b] Received file: image35block.jpg
+2026-07-17 05:41:11,846 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:69 - [72c3615b] Saved file: uploads\72c3615b_image35block.jpg
+2026-07-17 05:41:12,027 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:88 - [72c3615b] Image enhanced
+2026-07-17 05:41:14,341 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:98 - [72c3615b] Prediction: Blockage (79.93%)
+2026-07-17 05:41:14,343 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:135 - [72c3615b] Cleaned up temporary file
+2026-07-17 06:41:20,669 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
+2026-07-17 06:43:08,232 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [9cfcec06] Received file: image9block.jpg
+2026-07-17 06:43:08,236 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [9cfcec06] Saved file: uploads\9cfcec06_image9block.jpg
+2026-07-17 06:43:08,396 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [9cfcec06] Image enhanced
+2026-07-17 06:43:22,890 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [9cfcec06] Prediction: Blockage (97.06%)
+2026-07-17 06:43:22,898 - VisionService.API - ERROR - D:\Graduation_Project\VisionService\VisionService\API\routes.py:164 - [9cfcec06] Error: unsupported operand type(s) for +: 'int' and 'str'
+2026-07-17 06:43:22,903 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [9cfcec06] Cleaned up temporary file
+2026-07-17 06:47:20,030 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
+2026-07-17 06:48:54,055 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [b3f279a8] Received file: image5block.jpg
+2026-07-17 06:48:54,065 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [b3f279a8] Saved file: uploads\b3f279a8_image5block.jpg
+2026-07-17 06:48:54,260 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [b3f279a8] Image enhanced
+2026-07-17 06:49:09,376 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [b3f279a8] Prediction: Blockage (95.99%)
+2026-07-17 06:49:09,382 - VisionService.API - ERROR - D:\Graduation_Project\VisionService\VisionService\API\routes.py:164 - [b3f279a8] Error: unsupported operand type(s) for +: 'int' and 'dict'
+2026-07-17 06:49:09,389 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [b3f279a8] Cleaned up temporary file
+2026-07-17 06:49:36,481 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:197 - [02f1650f] Received file (async): image6block.jpg
+2026-07-17 06:49:36,485 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:218 - [02f1650f] Saved file: uploads\02f1650f_image6block.jpg
+2026-07-17 06:55:05,717 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
+2026-07-17 06:56:06,587 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [3b8f345e] Received file: image20pipe.jpg
+2026-07-17 06:56:06,592 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [3b8f345e] Saved file: uploads\3b8f345e_image20pipe.jpg
+2026-07-17 06:56:06,789 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [3b8f345e] Image enhanced
+2026-07-17 06:56:21,192 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [3b8f345e] Prediction: Pipe_Damage (76.71%)
+2026-07-17 06:56:21,207 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [3b8f345e] Cleaned up temporary file
+2026-07-17 06:57:00,253 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:197 - [2d38e86a] Received file (async): image19pipe.jpg
+2026-07-17 06:57:00,256 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:218 - [2d38e86a] Saved file: uploads\2d38e86a_image19pipe.jpg
+2026-07-17 06:58:23,872 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [ea34dc92] Received file: image2pipe.jpg
+2026-07-17 06:58:23,878 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [ea34dc92] Saved file: uploads\ea34dc92_image2pipe.jpg
+2026-07-17 06:58:24,039 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [ea34dc92] Image enhanced
+2026-07-17 06:58:25,881 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [ea34dc92] Prediction: Pipe_Damage (99.92%)
+2026-07-17 06:58:25,887 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [ea34dc92] Cleaned up temporary file
+2026-07-17 06:59:22,127 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [5aa07912] Received file: image19overflow.jpg
+2026-07-17 06:59:22,129 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [5aa07912] Saved file: uploads\5aa07912_image19overflow.jpg
+2026-07-17 06:59:22,210 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [5aa07912] Image enhanced
+2026-07-17 06:59:22,815 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [5aa07912] Prediction: Overflow (85.26%)
+2026-07-17 06:59:22,819 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [5aa07912] Cleaned up temporary file
+2026-07-17 09:59:12,327 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
+2026-07-17 10:00:21,555 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [6f7b4e70] Received file: image10pipe.jpg
+2026-07-17 10:00:21,564 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [6f7b4e70] Saved file: uploads\6f7b4e70_image10pipe.jpg
+2026-07-17 10:00:21,723 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [6f7b4e70] Image enhanced
+2026-07-17 10:00:29,360 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [6f7b4e70] Prediction: Pipe_Damage (77.39%)
+2026-07-17 10:00:29,368 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [6f7b4e70] Cleaned up temporary file
+2026-07-17 10:15:36,395 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
+2026-07-17 10:17:03,253 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:120 - [8d36ff0d] Received file: image7pipe.jpg
+2026-07-17 10:17:03,260 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:141 - [8d36ff0d] Saved file: uploads\8d36ff0d_image7pipe.jpg
+2026-07-17 10:17:03,454 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:160 - [8d36ff0d] Image enhanced
+2026-07-17 10:17:11,967 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:173 - [8d36ff0d] Prediction: Pipe_Damage (88.55%)
+2026-07-17 10:17:11,976 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:225 - [8d36ff0d] Cleaned up temporary file
+2026-07-17 10:17:50,440 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:250 - [2c4b8c9f] Received file (async): image9pipe.jpg
+2026-07-17 10:17:50,442 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:269 - [2c4b8c9f] Saved file: uploads\2c4b8c9f_image9pipe.jpg

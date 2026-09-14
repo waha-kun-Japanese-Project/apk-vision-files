@@ -1,63 +1,353 @@
-2026-07-17 05:34:46,976 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
-2026-07-17 05:36:19,703 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:48 - [e8d0e80e] Received file: image2pipe.jpg
-2026-07-17 05:36:19,710 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:69 - [e8d0e80e] Saved file: uploads\e8d0e80e_image2pipe.jpg
-2026-07-17 05:36:19,865 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:88 - [e8d0e80e] Image enhanced
-2026-07-17 05:36:28,923 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:98 - [e8d0e80e] Prediction: Pipe_Damage (99.92%)
-2026-07-17 05:36:28,925 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:135 - [e8d0e80e] Cleaned up temporary file
-2026-07-17 05:36:52,012 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:161 - [abc9b45e] Received file (async): image9pipe.jpg
-2026-07-17 05:36:52,015 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:182 - [abc9b45e] Saved file: uploads\abc9b45e_image9pipe.jpg
-2026-07-17 05:40:24,872 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:161 - [8089a22d] Received file (async): image10block.jpg
-2026-07-17 05:40:24,896 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:182 - [8089a22d] Saved file: uploads\8089a22d_image10block.jpg
-2026-07-17 05:41:11,843 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:48 - [72c3615b] Received file: image35block.jpg
-2026-07-17 05:41:11,846 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:69 - [72c3615b] Saved file: uploads\72c3615b_image35block.jpg
-2026-07-17 05:41:12,027 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:88 - [72c3615b] Image enhanced
-2026-07-17 05:41:14,341 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:98 - [72c3615b] Prediction: Blockage (79.93%)
-2026-07-17 05:41:14,343 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:135 - [72c3615b] Cleaned up temporary file
-2026-07-17 06:41:20,669 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
-2026-07-17 06:43:08,232 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [9cfcec06] Received file: image9block.jpg
-2026-07-17 06:43:08,236 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [9cfcec06] Saved file: uploads\9cfcec06_image9block.jpg
-2026-07-17 06:43:08,396 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [9cfcec06] Image enhanced
-2026-07-17 06:43:22,890 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [9cfcec06] Prediction: Blockage (97.06%)
-2026-07-17 06:43:22,898 - VisionService.API - ERROR - D:\Graduation_Project\VisionService\VisionService\API\routes.py:164 - [9cfcec06] Error: unsupported operand type(s) for +: 'int' and 'str'
-2026-07-17 06:43:22,903 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [9cfcec06] Cleaned up temporary file
-2026-07-17 06:47:20,030 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
-2026-07-17 06:48:54,055 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [b3f279a8] Received file: image5block.jpg
-2026-07-17 06:48:54,065 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [b3f279a8] Saved file: uploads\b3f279a8_image5block.jpg
-2026-07-17 06:48:54,260 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [b3f279a8] Image enhanced
-2026-07-17 06:49:09,376 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [b3f279a8] Prediction: Blockage (95.99%)
-2026-07-17 06:49:09,382 - VisionService.API - ERROR - D:\Graduation_Project\VisionService\VisionService\API\routes.py:164 - [b3f279a8] Error: unsupported operand type(s) for +: 'int' and 'dict'
-2026-07-17 06:49:09,389 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [b3f279a8] Cleaned up temporary file
-2026-07-17 06:49:36,481 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:197 - [02f1650f] Received file (async): image6block.jpg
-2026-07-17 06:49:36,485 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:218 - [02f1650f] Saved file: uploads\02f1650f_image6block.jpg
-2026-07-17 06:55:05,717 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
-2026-07-17 06:56:06,587 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [3b8f345e] Received file: image20pipe.jpg
-2026-07-17 06:56:06,592 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [3b8f345e] Saved file: uploads\3b8f345e_image20pipe.jpg
-2026-07-17 06:56:06,789 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [3b8f345e] Image enhanced
-2026-07-17 06:56:21,192 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [3b8f345e] Prediction: Pipe_Damage (76.71%)
-2026-07-17 06:56:21,207 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [3b8f345e] Cleaned up temporary file
-2026-07-17 06:57:00,253 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:197 - [2d38e86a] Received file (async): image19pipe.jpg
-2026-07-17 06:57:00,256 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:218 - [2d38e86a] Saved file: uploads\2d38e86a_image19pipe.jpg
-2026-07-17 06:58:23,872 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [ea34dc92] Received file: image2pipe.jpg
-2026-07-17 06:58:23,878 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [ea34dc92] Saved file: uploads\ea34dc92_image2pipe.jpg
-2026-07-17 06:58:24,039 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [ea34dc92] Image enhanced
-2026-07-17 06:58:25,881 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [ea34dc92] Prediction: Pipe_Damage (99.92%)
-2026-07-17 06:58:25,887 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [ea34dc92] Cleaned up temporary file
-2026-07-17 06:59:22,127 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [5aa07912] Received file: image19overflow.jpg
-2026-07-17 06:59:22,129 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [5aa07912] Saved file: uploads\5aa07912_image19overflow.jpg
-2026-07-17 06:59:22,210 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [5aa07912] Image enhanced
-2026-07-17 06:59:22,815 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [5aa07912] Prediction: Overflow (85.26%)
-2026-07-17 06:59:22,819 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [5aa07912] Cleaned up temporary file
-2026-07-17 09:59:12,327 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
-2026-07-17 10:00:21,555 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:51 - [6f7b4e70] Received file: image10pipe.jpg
-2026-07-17 10:00:21,564 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:72 - [6f7b4e70] Saved file: uploads\6f7b4e70_image10pipe.jpg
-2026-07-17 10:00:21,723 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:91 - [6f7b4e70] Image enhanced
-2026-07-17 10:00:29,360 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:104 - [6f7b4e70] Prediction: Pipe_Damage (77.39%)
-2026-07-17 10:00:29,368 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:172 - [6f7b4e70] Cleaned up temporary file
-2026-07-17 10:15:36,395 - VisionService.API.middleware - INFO - D:\Graduation_Project\VisionService\VisionService\API\middleware.py:26 - Middleware configured successfully
-2026-07-17 10:17:03,253 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:120 - [8d36ff0d] Received file: image7pipe.jpg
-2026-07-17 10:17:03,260 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:141 - [8d36ff0d] Saved file: uploads\8d36ff0d_image7pipe.jpg
-2026-07-17 10:17:03,454 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:160 - [8d36ff0d] Image enhanced
-2026-07-17 10:17:11,967 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:173 - [8d36ff0d] Prediction: Pipe_Damage (88.55%)
-2026-07-17 10:17:11,976 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:225 - [8d36ff0d] Cleaned up temporary file
-2026-07-17 10:17:50,440 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:250 - [2c4b8c9f] Received file (async): image9pipe.jpg
-2026-07-17 10:17:50,442 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:269 - [2c4b8c9f] Saved file: uploads\2c4b8c9f_image9pipe.jpg
+2026-08-26 05:23:58,193 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [72f8aa64] Received file: imag1pipe.jpg
+2026-08-26 05:23:58,206 - VisionService.API - ERROR - D:\Graduation_Project\VisionService\VisionService\API\routes.py:281 - [72f8aa64] Error: [Errno 2] No such file or directory: 'uploads\\72f8aa64_imag1pipe.jpg'
+2026-08-26 05:24:20,649 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [aea6f61d] Received file: image6pipe.jpg
+2026-08-26 05:24:20,650 - VisionService.API - ERROR - D:\Graduation_Project\VisionService\VisionService\API\routes.py:281 - [aea6f61d] Error: [Errno 2] No such file or directory: 'uploads\\aea6f61d_image6pipe.jpg'
+2026-08-26 05:26:42,124 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [013c51e8] Received file: imag1pipe.jpg
+2026-08-26 05:26:42,130 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [013c51e8] Saved file: uploads\013c51e8_imag1pipe.jpg
+2026-08-26 05:26:42,336 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [013c51e8] Image enhanced
+2026-08-26 05:26:49,815 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [013c51e8] Prediction: Pipe_Damage (95.49%)
+2026-08-26 05:26:49,822 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [013c51e8] Binary check: is_problem=False, confidence=0.50
+2026-08-26 05:26:49,823 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [013c51e8] Cleaned up temporary file
+2026-08-26 05:27:01,011 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [6bf9759a] Received file: imag1pipe.jpg
+2026-08-26 05:27:01,014 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [6bf9759a] Saved file: uploads\6bf9759a_imag1pipe.jpg
+2026-08-26 05:27:01,111 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [6bf9759a] Image enhanced
+2026-08-26 05:27:01,796 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [6bf9759a] Prediction: Pipe_Damage (95.49%)
+2026-08-26 05:27:01,797 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [6bf9759a] Binary check: is_problem=False, confidence=0.50
+2026-08-26 05:27:01,799 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [6bf9759a] Cleaned up temporary file
+2026-08-26 05:27:11,436 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [30f4e602] Received file: image15pipe.jpg
+2026-08-26 05:27:11,437 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [30f4e602] Saved file: uploads\30f4e602_image15pipe.jpg
+2026-08-26 05:27:11,487 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [30f4e602] Image enhanced
+2026-08-26 05:27:11,874 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [30f4e602] Prediction: Pipe_Damage (98.66%)
+2026-08-26 05:27:11,876 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [30f4e602] Binary check: is_problem=False, confidence=0.50
+2026-08-26 05:27:11,877 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [30f4e602] Cleaned up temporary file
+2026-08-26 05:31:17,040 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [23b75142] Received file: image6pipe.jpg
+2026-08-26 05:31:17,050 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [23b75142] Saved file: uploads\23b75142_image6pipe.jpg
+2026-08-26 05:31:17,339 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [23b75142] Image enhanced
+2026-08-26 05:31:33,716 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [23b75142] Prediction: Pipe_Damage (99.97%)
+2026-08-26 05:31:33,747 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [23b75142] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:31:33,783 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [23b75142] Cleaned up temporary file
+2026-08-26 05:31:54,128 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [acc50c12] Received file: image22pipe.jpg
+2026-08-26 05:31:54,138 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [acc50c12] Saved file: uploads\acc50c12_image22pipe.jpg
+2026-08-26 05:31:54,280 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [acc50c12] Image enhanced
+2026-08-26 05:31:55,831 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [acc50c12] Prediction: Pipe_Damage (95.98%)
+2026-08-26 05:31:55,835 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [acc50c12] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:31:55,842 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [acc50c12] Cleaned up temporary file
+2026-08-26 05:32:00,456 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [be4351f1] Received file: image22pipe.jpg
+2026-08-26 05:32:00,458 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [be4351f1] Saved file: uploads\be4351f1_image22pipe.jpg
+2026-08-26 05:32:00,552 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [be4351f1] Image enhanced
+2026-08-26 05:32:01,083 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [be4351f1] Prediction: Pipe_Damage (95.98%)
+2026-08-26 05:32:01,084 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [be4351f1] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:32:01,086 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [be4351f1] Cleaned up temporary file
+2026-08-26 05:32:42,318 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [adf81cad] Received file: image9block.jpg
+2026-08-26 05:32:42,329 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [adf81cad] Saved file: uploads\adf81cad_image9block.jpg
+2026-08-26 05:32:42,453 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [adf81cad] Image enhanced
+2026-08-26 05:32:43,667 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [adf81cad] Prediction: Blockage (97.06%)
+2026-08-26 05:32:43,668 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [adf81cad] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:32:43,678 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [adf81cad] Cleaned up temporary file
+2026-08-26 05:32:56,503 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [93df0c53] Received file: image33bock.jpg
+2026-08-26 05:32:56,507 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [93df0c53] Saved file: uploads\93df0c53_image33bock.jpg
+2026-08-26 05:32:56,590 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [93df0c53] Image enhanced
+2026-08-26 05:32:57,155 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [93df0c53] Prediction: Blockage (97.19%)
+2026-08-26 05:32:57,157 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [93df0c53] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:32:57,164 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [93df0c53] Cleaned up temporary file
+2026-08-26 05:33:15,206 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [c88bf287] Received file: image39overflow.jpg
+2026-08-26 05:33:15,218 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [c88bf287] Saved file: uploads\c88bf287_image39overflow.jpg
+2026-08-26 05:33:15,386 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [c88bf287] Image enhanced
+2026-08-26 05:33:16,636 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [c88bf287] Prediction: Overflow (98.56%)
+2026-08-26 05:33:16,638 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [c88bf287] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:33:16,650 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [c88bf287] Cleaned up temporary file
+2026-08-26 05:33:29,596 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [2f7a8e93] Received file: image30overflow.jpg
+2026-08-26 05:33:29,598 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [2f7a8e93] Saved file: uploads\2f7a8e93_image30overflow.jpg
+2026-08-26 05:33:29,653 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [2f7a8e93] Image enhanced
+2026-08-26 05:33:30,387 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [2f7a8e93] Prediction: Overflow (75.52%)
+2026-08-26 05:33:30,388 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [2f7a8e93] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:33:30,389 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [2f7a8e93] Cleaned up temporary file
+2026-08-26 05:33:51,763 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [802a82c4] Received file: image41overflow.jpg
+2026-08-26 05:33:51,772 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [802a82c4] Saved file: uploads\802a82c4_image41overflow.jpg
+2026-08-26 05:33:51,925 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [802a82c4] Image enhanced
+2026-08-26 05:33:52,983 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [802a82c4] Prediction: Overflow (93.10%)
+2026-08-26 05:33:52,984 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [802a82c4] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:33:52,995 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [802a82c4] Cleaned up temporary file
+2026-08-26 05:35:37,133 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [71b0af5c] Received file: OIP (7).webp
+2026-08-26 05:35:37,164 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [71b0af5c] Saved file: uploads\71b0af5c_OIP (7).webp
+2026-08-26 05:35:37,789 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [71b0af5c] Image enhanced
+2026-08-26 05:35:40,232 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [71b0af5c] Prediction: Blockage (54.25%)
+2026-08-26 05:35:40,234 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [71b0af5c] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:35:40,236 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [71b0af5c] Cleaned up temporary file
+2026-08-26 05:35:56,419 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [073d9e23] Received file: download (1).webp
+2026-08-26 05:35:56,429 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [073d9e23] Saved file: uploads\073d9e23_download (1).webp
+2026-08-26 05:35:56,569 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [073d9e23] Image enhanced
+2026-08-26 05:35:57,658 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [073d9e23] Prediction: Pipe_Damage (51.01%)
+2026-08-26 05:35:57,662 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [073d9e23] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:35:57,665 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [073d9e23] Cleaned up temporary file
+2026-08-26 05:36:09,942 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [5b799691] Received file: OIP (6).webp
+2026-08-26 05:36:09,951 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [5b799691] Saved file: uploads\5b799691_OIP (6).webp
+2026-08-26 05:36:10,105 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [5b799691] Image enhanced
+2026-08-26 05:36:10,960 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [5b799691] Prediction: Blockage (51.03%)
+2026-08-26 05:36:10,966 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [5b799691] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:36:10,969 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:288 - [5b799691] Cleaned up temporary file
+2026-08-26 05:50:30,133 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [192e0721] Received file: image43pipe.jpg
+2026-08-26 05:50:30,152 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [192e0721] Saved file: uploads\192e0721_image43pipe.jpg
+2026-08-26 05:50:30,471 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [192e0721] Image enhanced
+2026-08-26 05:50:44,924 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [192e0721] Prediction: Pipe_Damage (98.16%)
+2026-08-26 05:50:44,936 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [192e0721] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:50:44,959 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [192e0721] Cleaned up temporary file
+2026-08-26 05:51:08,978 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [875ac884] Received file: image68pipe.jpg
+2026-08-26 05:51:08,992 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [875ac884] Saved file: uploads\875ac884_image68pipe.jpg
+2026-08-26 05:51:09,178 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [875ac884] Image enhanced
+2026-08-26 05:51:11,995 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [875ac884] Prediction: Pipe_Damage (99.88%)
+2026-08-26 05:51:11,997 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [875ac884] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:51:12,012 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [875ac884] Cleaned up temporary file
+2026-08-26 05:51:29,269 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [815cbaf4] Received file: image25block.jpg
+2026-08-26 05:51:29,276 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [815cbaf4] Saved file: uploads\815cbaf4_image25block.jpg
+2026-08-26 05:51:29,350 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [815cbaf4] Image enhanced
+2026-08-26 05:51:30,325 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [815cbaf4] Prediction: Overflow (54.23%)
+2026-08-26 05:51:30,327 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [815cbaf4] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:51:30,328 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [815cbaf4] Cleaned up temporary file
+2026-08-26 05:51:31,544 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [22023907] Received file: image25block.jpg
+2026-08-26 05:51:31,546 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [22023907] Saved file: uploads\22023907_image25block.jpg
+2026-08-26 05:51:31,629 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [22023907] Image enhanced
+2026-08-26 05:51:32,234 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [22023907] Prediction: Overflow (54.23%)
+2026-08-26 05:51:32,235 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [22023907] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:51:32,239 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [22023907] Cleaned up temporary file
+2026-08-26 05:51:45,730 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [36d3ddbf] Received file: image9block.jpg
+2026-08-26 05:51:45,736 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [36d3ddbf] Saved file: uploads\36d3ddbf_image9block.jpg
+2026-08-26 05:51:45,815 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [36d3ddbf] Image enhanced
+2026-08-26 05:51:46,547 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [36d3ddbf] Prediction: Blockage (97.06%)
+2026-08-26 05:51:46,548 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [36d3ddbf] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:51:46,553 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [36d3ddbf] Cleaned up temporary file
+2026-08-26 05:51:59,587 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [59310b06] Received file: image36block.jpg
+2026-08-26 05:51:59,589 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [59310b06] Saved file: uploads\59310b06_image36block.jpg
+2026-08-26 05:51:59,681 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [59310b06] Image enhanced
+2026-08-26 05:52:00,206 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [59310b06] Prediction: Blockage (99.31%)
+2026-08-26 05:52:00,207 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [59310b06] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:52:00,213 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [59310b06] Cleaned up temporary file
+2026-08-26 05:52:11,929 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [15ced1f3] Received file: image6overflow.jpg
+2026-08-26 05:52:11,931 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [15ced1f3] Saved file: uploads\15ced1f3_image6overflow.jpg
+2026-08-26 05:52:11,988 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [15ced1f3] Image enhanced
+2026-08-26 05:52:12,530 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [15ced1f3] Prediction: Overflow (96.53%)
+2026-08-26 05:52:12,532 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [15ced1f3] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:52:12,537 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [15ced1f3] Cleaned up temporary file
+2026-08-26 05:52:25,092 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [f2dc0913] Received file: image29overflow.jpg
+2026-08-26 05:52:25,098 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [f2dc0913] Saved file: uploads\f2dc0913_image29overflow.jpg
+2026-08-26 05:52:25,172 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [f2dc0913] Image enhanced
+2026-08-26 05:52:25,927 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [f2dc0913] Prediction: Overflow (91.08%)
+2026-08-26 05:52:25,930 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [f2dc0913] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:52:25,934 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [f2dc0913] Cleaned up temporary file
+2026-08-26 05:52:36,769 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [755c1a3c] Received file: OIP (7).webp
+2026-08-26 05:52:36,772 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [755c1a3c] Saved file: uploads\755c1a3c_OIP (7).webp
+2026-08-26 05:52:37,080 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [755c1a3c] Image enhanced
+2026-08-26 05:52:37,698 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [755c1a3c] Prediction: Blockage (54.25%)
+2026-08-26 05:52:37,700 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [755c1a3c] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:52:37,702 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [755c1a3c] Cleaned up temporary file
+2026-08-26 05:52:49,112 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [55c4a1c2] Received file: download (1).webp
+2026-08-26 05:52:49,114 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [55c4a1c2] Saved file: uploads\55c4a1c2_download (1).webp
+2026-08-26 05:52:49,190 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [55c4a1c2] Image enhanced
+2026-08-26 05:52:49,706 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [55c4a1c2] Prediction: Pipe_Damage (51.01%)
+2026-08-26 05:52:49,707 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [55c4a1c2] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:52:49,709 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [55c4a1c2] Cleaned up temporary file
+2026-08-26 05:53:14,201 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [caaacfd7] Received file: OIP (6).webp
+2026-08-26 05:53:14,212 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [caaacfd7] Saved file: uploads\caaacfd7_OIP (6).webp
+2026-08-26 05:53:14,320 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [caaacfd7] Image enhanced
+2026-08-26 05:53:15,377 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [caaacfd7] Prediction: Blockage (51.03%)
+2026-08-26 05:53:15,379 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [caaacfd7] Binary check: is_problem=True, confidence=0.90
+2026-08-26 05:53:15,381 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [caaacfd7] Cleaned up temporary file
+2026-08-26 05:59:34,114 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [ab1baba3] Received file: image24pipe.jpg
+2026-08-26 05:59:34,123 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [ab1baba3] Saved file: uploads\ab1baba3_image24pipe.jpg
+2026-08-26 05:59:34,389 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [ab1baba3] Image enhanced
+2026-08-26 05:59:48,943 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [ab1baba3] Prediction: Pipe_Damage (99.01%)
+2026-08-26 05:59:49,813 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [ab1baba3] Binary check: is_problem=True, confidence=0.99
+2026-08-26 05:59:49,829 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [ab1baba3] Cleaned up temporary file
+2026-08-26 05:59:55,090 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [63bceadc] Received file: image24pipe.jpg
+2026-08-26 05:59:55,096 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [63bceadc] Saved file: uploads\63bceadc_image24pipe.jpg
+2026-08-26 05:59:55,197 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [63bceadc] Image enhanced
+2026-08-26 05:59:55,712 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [63bceadc] Prediction: Pipe_Damage (99.01%)
+2026-08-26 05:59:56,276 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [63bceadc] Binary check: is_problem=True, confidence=0.99
+2026-08-26 05:59:56,280 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [63bceadc] Cleaned up temporary file
+2026-08-26 06:00:06,026 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [d6440bef] Received file: image6overflow.jpg
+2026-08-26 06:00:06,034 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [d6440bef] Saved file: uploads\d6440bef_image6overflow.jpg
+2026-08-26 06:00:06,089 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [d6440bef] Image enhanced
+2026-08-26 06:00:06,780 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [d6440bef] Prediction: Overflow (96.53%)
+2026-08-26 06:00:07,291 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [d6440bef] Binary check: is_problem=True, confidence=0.97
+2026-08-26 06:00:07,297 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [d6440bef] Cleaned up temporary file
+2026-08-26 06:00:17,731 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [4971e4b3] Received file: image9block.jpg
+2026-08-26 06:00:17,732 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [4971e4b3] Saved file: uploads\4971e4b3_image9block.jpg
+2026-08-26 06:00:17,805 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [4971e4b3] Image enhanced
+2026-08-26 06:00:18,318 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [4971e4b3] Prediction: Blockage (97.06%)
+2026-08-26 06:00:18,914 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [4971e4b3] Binary check: is_problem=True, confidence=0.97
+2026-08-26 06:00:18,916 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [4971e4b3] Cleaned up temporary file
+2026-08-26 06:00:28,597 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [3ed59201] Received file: download (1).webp
+2026-08-26 06:00:28,599 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [3ed59201] Saved file: uploads\3ed59201_download (1).webp
+2026-08-26 06:00:28,754 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [3ed59201] Image enhanced
+2026-08-26 06:00:29,320 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [3ed59201] Prediction: Pipe_Damage (51.01%)
+2026-08-26 06:00:29,890 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [3ed59201] Binary check: is_problem=False, confidence=0.51
+2026-08-26 06:00:29,891 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [3ed59201] Cleaned up temporary file
+2026-08-26 06:00:38,746 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [27863278] Received file: OIP (7).webp
+2026-08-26 06:00:38,749 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [27863278] Saved file: uploads\27863278_OIP (7).webp
+2026-08-26 06:00:38,957 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [27863278] Image enhanced
+2026-08-26 06:00:39,881 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [27863278] Prediction: Blockage (54.25%)
+2026-08-26 06:00:40,435 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [27863278] Binary check: is_problem=False, confidence=0.54
+2026-08-26 06:00:40,437 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [27863278] Cleaned up temporary file
+2026-08-26 06:00:49,360 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [594e2691] Received file: OIP (6).webp
+2026-08-26 06:00:49,367 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [594e2691] Saved file: uploads\594e2691_OIP (6).webp
+2026-08-26 06:00:49,470 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [594e2691] Image enhanced
+2026-08-26 06:00:50,299 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [594e2691] Prediction: Blockage (51.03%)
+2026-08-26 06:00:50,945 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [594e2691] Binary check: is_problem=False, confidence=0.51
+2026-08-26 06:00:50,951 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [594e2691] Cleaned up temporary file
+2026-08-26 06:01:43,476 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [223bf3e9] Received file: image16block.jpg
+2026-08-26 06:01:43,495 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [223bf3e9] Saved file: uploads\223bf3e9_image16block.jpg
+2026-08-26 06:01:43,639 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [223bf3e9] Image enhanced
+2026-08-26 06:01:45,787 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [223bf3e9] Prediction: Blockage (98.18%)
+2026-08-26 06:01:46,331 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [223bf3e9] Binary check: is_problem=True, confidence=0.98
+2026-08-26 06:01:46,344 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [223bf3e9] Cleaned up temporary file
+2026-08-28 08:36:25,221 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [9da7f7dd] Received file: image37block.jpg
+2026-08-28 08:36:25,228 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [9da7f7dd] Saved file: uploads\9da7f7dd_image37block.jpg
+2026-08-28 08:36:25,428 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [9da7f7dd] Image enhanced
+2026-08-28 08:36:37,832 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [9da7f7dd] Prediction: Blockage (82.56%)
+2026-08-28 08:36:38,167 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [9da7f7dd] Binary check: is_problem=True, confidence=0.83
+2026-08-28 08:36:38,171 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [9da7f7dd] Cleaned up temporary file
+2026-08-28 08:37:06,716 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [fff3a756] Received file: image36block.jpg
+2026-08-28 08:37:06,717 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [fff3a756] Saved file: uploads\fff3a756_image36block.jpg
+2026-08-28 08:37:06,766 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [fff3a756] Image enhanced
+2026-08-28 08:37:07,034 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [fff3a756] Prediction: Blockage (99.31%)
+2026-08-28 08:37:07,259 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [fff3a756] Binary check: is_problem=True, confidence=0.99
+2026-08-28 08:37:07,279 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [fff3a756] Cleaned up temporary file
+2026-08-28 08:37:46,613 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [72cf1079] Received file: image6overflow.jpg
+2026-08-28 08:37:46,630 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [72cf1079] Saved file: uploads\72cf1079_image6overflow.jpg
+2026-08-28 08:37:46,731 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [72cf1079] Image enhanced
+2026-08-28 08:37:47,720 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [72cf1079] Prediction: Overflow (96.53%)
+2026-08-28 08:37:48,097 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [72cf1079] Binary check: is_problem=True, confidence=0.97
+2026-08-28 08:37:48,103 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [72cf1079] Cleaned up temporary file
+2026-08-28 08:40:04,947 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [27b305ce] Received file: image21overflow.jpg
+2026-08-28 08:40:04,965 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [27b305ce] Saved file: uploads\27b305ce_image21overflow.jpg
+2026-08-28 08:40:05,108 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [27b305ce] Image enhanced
+2026-08-28 08:40:06,537 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [27b305ce] Prediction: Overflow (79.29%)
+2026-08-28 08:40:06,912 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [27b305ce] Binary check: is_problem=True, confidence=0.79
+2026-08-28 08:40:06,913 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [27b305ce] Cleaned up temporary file
+2026-08-28 08:40:23,576 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [e59dbf87] Received file: image17pipe.jpg
+2026-08-28 08:40:23,577 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [e59dbf87] Saved file: uploads\e59dbf87_image17pipe.jpg
+2026-08-28 08:40:23,608 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [e59dbf87] Image enhanced
+2026-08-28 08:40:23,951 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [e59dbf87] Prediction: Pipe_Damage (92.17%)
+2026-08-28 08:40:24,259 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [e59dbf87] Binary check: is_problem=True, confidence=0.92
+2026-08-28 08:40:24,269 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [e59dbf87] Cleaned up temporary file
+2026-08-28 08:40:38,823 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [c9950ce0] Received file: image11pipe.jpg
+2026-08-28 08:40:38,825 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [c9950ce0] Saved file: uploads\c9950ce0_image11pipe.jpg
+2026-08-28 08:40:38,858 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [c9950ce0] Image enhanced
+2026-08-28 08:40:39,120 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [c9950ce0] Prediction: Pipe_Damage (98.30%)
+2026-08-28 08:40:39,372 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [c9950ce0] Binary check: is_problem=True, confidence=0.98
+2026-08-28 08:40:39,373 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [c9950ce0] Cleaned up temporary file
+2026-08-28 08:40:52,865 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [292052d0] Received file: OIP (6).webp
+2026-08-28 08:40:52,871 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [292052d0] Saved file: uploads\292052d0_OIP (6).webp
+2026-08-28 08:40:53,079 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [292052d0] Image enhanced
+2026-08-28 08:40:53,342 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [292052d0] Prediction: Blockage (51.03%)
+2026-08-28 08:40:53,626 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [292052d0] Binary check: is_problem=False, confidence=0.51
+2026-08-28 08:40:53,626 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [292052d0] Cleaned up temporary file
+2026-08-28 08:41:03,622 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [fbbdcc2c] Received file: WhatsApp Image 2026-08-27 at 9.20.57 AM.jpeg
+2026-08-28 08:41:03,623 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [fbbdcc2c] Saved file: uploads\fbbdcc2c_WhatsApp Image 2026-08-27 at 9.20.57 AM.jpeg
+2026-08-28 08:41:03,652 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [fbbdcc2c] Cleaned up temporary file
+2026-08-28 08:41:59,801 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [ddaa2b12] Received file: download (3).webp
+2026-08-28 08:41:59,818 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [ddaa2b12] Saved file: uploads\ddaa2b12_download (3).webp
+2026-08-28 08:41:59,938 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [ddaa2b12] Image enhanced
+2026-08-28 08:42:01,359 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [ddaa2b12] Prediction: Blockage (49.31%)
+2026-08-28 08:42:01,855 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [ddaa2b12] Binary check: is_problem=False, confidence=0.49
+2026-08-28 08:42:01,856 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [ddaa2b12] Cleaned up temporary file
+2026-08-28 08:42:10,665 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [7ee663af] Received file: download (2).webp
+2026-08-28 08:42:10,670 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [7ee663af] Saved file: uploads\7ee663af_download (2).webp
+2026-08-28 08:42:10,792 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [7ee663af] Image enhanced
+2026-08-28 08:42:11,118 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [7ee663af] Prediction: Blockage (47.23%)
+2026-08-28 08:42:11,367 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [7ee663af] Binary check: is_problem=False, confidence=0.47
+2026-08-28 08:42:11,368 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [7ee663af] Cleaned up temporary file
+2026-08-28 08:42:28,686 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [f8438ce0] Received file (async): image7pipe.jpg
+2026-08-28 08:42:28,693 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [f8438ce0] Saved file: uploads\f8438ce0_image7pipe.jpg
+2026-08-28 08:42:44,976 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [f69c2399] Received file (async): download (2).webp
+2026-08-28 08:42:44,977 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [f69c2399] Saved file: uploads\f69c2399_download (2).webp
+2026-08-28 08:42:47,545 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [464031a2] Received file (async): download (2).webp
+2026-08-28 08:42:47,547 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [464031a2] Saved file: uploads\464031a2_download (2).webp
+2026-08-28 08:44:10,923 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [29395a7b] Received file (async): download (2).webp
+2026-08-28 08:44:10,930 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [29395a7b] Saved file: uploads\29395a7b_download (2).webp
+2026-08-28 08:44:34,749 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [b8d80732] Received file (async): image7pipe.jpg
+2026-08-28 08:44:34,751 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [b8d80732] Saved file: uploads\b8d80732_image7pipe.jpg
+2026-08-28 08:46:14,182 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [08f059cc] Received file (async): image15pipe.jpg
+2026-08-28 08:46:14,195 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [08f059cc] Saved file: uploads\08f059cc_image15pipe.jpg
+2026-08-28 08:50:40,139 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [a12aa3e0] Received file: download (3).webp
+2026-08-28 08:50:40,154 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [a12aa3e0] Saved file: uploads\a12aa3e0_download (3).webp
+2026-08-28 08:50:40,591 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [a12aa3e0] Image enhanced
+2026-08-28 08:50:47,833 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [a12aa3e0] Prediction: Blockage (49.31%)
+2026-08-28 08:50:48,117 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [a12aa3e0] Binary check: is_problem=False, confidence=0.49
+2026-08-28 08:50:48,118 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [a12aa3e0] Cleaned up temporary file
+2026-08-28 08:50:56,053 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [a0b0657c] Received file: download (2).webp
+2026-08-28 08:50:56,058 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [a0b0657c] Saved file: uploads\a0b0657c_download (2).webp
+2026-08-28 08:50:56,173 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [a0b0657c] Image enhanced
+2026-08-28 08:50:56,381 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [a0b0657c] Prediction: Blockage (47.23%)
+2026-08-28 08:50:56,591 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [a0b0657c] Binary check: is_problem=False, confidence=0.47
+2026-08-28 08:50:56,593 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [a0b0657c] Cleaned up temporary file
+2026-08-28 08:51:29,875 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [fdcac9e8] Received file (async): image24pipe.jpg
+2026-08-28 08:51:29,891 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [fdcac9e8] Saved file: uploads\fdcac9e8_image24pipe.jpg
+2026-08-28 08:53:11,097 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [d5468016] Received file (async): download (3).webp
+2026-08-28 08:53:11,140 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [d5468016] Saved file: uploads\d5468016_download (3).webp
+2026-08-28 09:13:41,416 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [6d35cb60] Received file: download (2).webp
+2026-08-28 09:13:41,439 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [6d35cb60] Saved file: uploads\6d35cb60_download (2).webp
+2026-08-28 09:13:42,382 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [6d35cb60] Image enhanced
+2026-08-28 09:14:04,560 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [6d35cb60] Prediction: Blockage (47.23%)
+2026-08-28 09:14:05,730 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [6d35cb60] Binary check: is_problem=False, confidence=0.47
+2026-08-28 09:14:05,734 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [6d35cb60] Cleaned up temporary file
+2026-08-28 09:14:16,536 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [126a8124] Received file: download (3).webp
+2026-08-28 09:14:16,541 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [126a8124] Saved file: uploads\126a8124_download (3).webp
+2026-08-28 09:14:16,660 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [126a8124] Image enhanced
+2026-08-28 09:14:17,222 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [126a8124] Prediction: Blockage (49.31%)
+2026-08-28 09:14:17,725 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [126a8124] Binary check: is_problem=False, confidence=0.49
+2026-08-28 09:14:17,731 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [126a8124] Cleaned up temporary file
+2026-08-28 09:16:47,785 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [beb8890d] Received file (async): download (2).webp
+2026-08-28 09:16:47,802 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [beb8890d] Saved file: uploads\beb8890d_download (2).webp
+2026-08-28 09:20:44,659 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [2986fbeb] Received file (async): download (3).webp
+2026-08-28 09:20:44,687 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [2986fbeb] Saved file: uploads\2986fbeb_download (3).webp
+2026-08-28 09:24:35,878 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [ca07fab8] Received file (async): download (2).webp
+2026-08-28 09:24:35,909 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [ca07fab8] Saved file: uploads\ca07fab8_download (2).webp
+2026-08-28 09:24:59,237 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [85a49e01] Received file (async): imag1pipe.jpg
+2026-08-28 09:24:59,245 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [85a49e01] Saved file: uploads\85a49e01_imag1pipe.jpg
+2026-08-28 09:34:20,946 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [cf029b5d] Received file (async): image42block.jpg
+2026-08-28 09:34:20,964 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [cf029b5d] Saved file: uploads\cf029b5d_image42block.jpg
+2026-08-28 09:35:44,079 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [2b11cf08] Received file (async): download (2).webp
+2026-08-28 09:35:44,098 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [2b11cf08] Saved file: uploads\2b11cf08_download (2).webp
+2026-08-28 09:40:12,638 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [1bd8f234] Received file (async): download (2).webp
+2026-08-28 09:40:12,654 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [1bd8f234] Saved file: uploads\1bd8f234_download (2).webp
+2026-08-28 09:42:01,783 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [375f38f2] Received file: download (3).webp
+2026-08-28 09:42:01,798 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [375f38f2] Saved file: uploads\375f38f2_download (3).webp
+2026-08-28 09:42:02,192 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [375f38f2] Image enhanced
+2026-08-28 09:42:19,988 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [375f38f2] Prediction: Blockage (49.31%)
+2026-08-28 09:42:20,702 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [375f38f2] Binary check: is_problem=False, confidence=0.49
+2026-08-28 09:42:20,708 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [375f38f2] Cleaned up temporary file
+2026-08-28 12:05:48,771 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [a5b92b74] Received file: download (2).webp
+2026-08-28 12:05:48,784 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [a5b92b74] Saved file: uploads\a5b92b74_download (2).webp
+2026-08-28 12:05:49,595 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [a5b92b74] Image enhanced
+2026-08-28 12:06:02,092 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [a5b92b74] Prediction: Blockage (47.23%)
+2026-08-28 12:06:02,601 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [a5b92b74] Binary check: is_problem=False, confidence=0.47
+2026-08-28 12:06:02,606 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [a5b92b74] Cleaned up temporary file
+2026-08-28 12:06:18,393 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [8e2d2c61] Received file (async): download (2).webp
+2026-08-28 12:06:18,397 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [8e2d2c61] Saved file: uploads\8e2d2c61_download (2).webp
+2026-08-28 12:11:26,027 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [a267b4bc] Received file (async): download (2).webp
+2026-08-28 12:11:26,047 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [a267b4bc] Saved file: uploads\a267b4bc_download (2).webp
+2026-08-28 12:20:07,239 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [78f3b663] Received file: download (2).webp
+2026-08-28 12:20:07,251 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [78f3b663] Saved file: uploads\78f3b663_download (2).webp
+2026-08-28 12:20:07,615 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [78f3b663] Image enhanced
+2026-08-28 12:20:24,509 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [78f3b663] Prediction: Blockage (47.23%)
+2026-08-28 12:20:25,254 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [78f3b663] Binary check: is_problem=False, confidence=0.47
+2026-08-28 12:20:25,260 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [78f3b663] Cleaned up temporary file
+2026-08-28 12:20:37,247 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [a03dc2a9] Received file (async): download (2).webp
+2026-08-28 12:20:37,252 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [a03dc2a9] Saved file: uploads\a03dc2a9_download (2).webp
+2026-08-28 12:23:57,595 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [f843852f] Received file: image30pipe.jpg
+2026-08-28 12:23:57,627 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [f843852f] Saved file: uploads\f843852f_image30pipe.jpg
+2026-08-28 12:23:58,053 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [f843852f] Image enhanced
+2026-08-28 12:24:00,145 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [f843852f] Prediction: Pipe_Damage (96.28%)
+2026-08-28 12:24:00,728 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [f843852f] Binary check: is_problem=True, confidence=0.96
+2026-08-28 12:24:00,749 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [f843852f] Cleaned up temporary file
+2026-08-28 12:24:15,640 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [268ff706] Received file (async): image30pipe.jpg
+2026-08-28 12:24:15,643 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [268ff706] Saved file: uploads\268ff706_image30pipe.jpg
+2026-08-28 12:24:33,354 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:118 - [a41c8e5c] Received file: OIP (7).webp
+2026-08-28 12:24:33,358 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:139 - [a41c8e5c] Saved file: uploads\a41c8e5c_OIP (7).webp
+2026-08-28 12:24:33,562 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:158 - [a41c8e5c] Image enhanced
+2026-08-28 12:24:34,428 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:171 - [a41c8e5c] Prediction: Blockage (54.25%)
+2026-08-28 12:24:34,910 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:183 - [a41c8e5c] Binary check: is_problem=False, confidence=0.54
+2026-08-28 12:24:34,911 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:287 - [a41c8e5c] Cleaned up temporary file
+2026-08-28 12:24:40,383 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:312 - [3c29d634] Received file (async): OIP (7).webp
+2026-08-28 12:24:40,386 - VisionService.API - INFO - D:\Graduation_Project\VisionService\VisionService\API\routes.py:331 - [3c29d634] Saved file: uploads\3c29d634_OIP (7).webp
